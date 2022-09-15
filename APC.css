@@ -1,0 +1,83 @@
+body{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+/* wrapper section */
+.wrapper{
+    display: flex;
+    height: 250px;
+    border-radius: 10px;
+    width: 700px;
+    background-color: white;
+    margin-top: 15%;
+}
+
+/* table image */
+.table-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 45px;
+}
+
+/* text section */
+
+.text-section{
+    margin:10px 20px 10px 0;
+    padding-right: 30px;
+    color:hsl(217, 19%, 35%);
+    
+}
+
+h2{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.michelle{
+    width: 35px;
+    height:35px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+/* address section */
+address{
+    display: flex;
+}
+
+span{
+    font-style: normal;
+}
+
+.share {
+    margin-left: 120px;
+    background-color:hsl(212, 23%, 69%);
+    color: (214, 17%, 51%);
+    width: 25px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    display: inline;
+}
+
+.popover-content{
+    background-color:hsl(217, 19%, 35%);
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
+    visibility: hidden;
+}
+
+.p-1{
+    color:hsl(210, 46%, 95%) ;
+    font-size:  15px; ;
+}
+a{
+   margin-top: 15px;
+}
